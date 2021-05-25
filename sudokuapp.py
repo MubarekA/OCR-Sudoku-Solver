@@ -86,13 +86,8 @@ def solve(pathImage):
         weight_perspective = cv2.addWeighted(image_in_warp_colored, 1, image, 0.5, 1)
         imageDetectedDigits = draw_grid(imageDetectedDigits)
         imageDetectedDigits = draw_grid(imageDetectedDigits)
-        return [[image,imageThreshold,imageContours,imageBigContour],
-        [imageDetectedDigits,image_solved_digits,image_in_warp_colored,weight_perspective]]
+        return [weight_perspective]
 
-
-
-# imageArray = ([image,imageThreshold,imageContours,imageBigContour],
-# [imageDetectedDigits,image_solved_digits,image_in_warp_colored,weight_perspective])
 imageArray = solve(pathImage)
 stackedImage = stack_images(imageArray, 1)
 cv2.imshow('Stacked Images', stackedImage)
