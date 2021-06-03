@@ -2,8 +2,8 @@
 OCR Sudoku Solver is a Python application that solves sudoku boards from photos. 
 
 ## Features 
-- [x] Extracts detected to digits from Phots.
-- [x] Utilizes an ML model trained on 10,000+ pictures to detect digits. 
+- [x] Extracts detected to digits from Photos.
+- [x] Utilizes a Machine Learning model trained on 10,000+ pictures to detect digits. 
 - [x] Solves Sudoku Puzzle by using the backtracking algorithm.
 - [x] Overlays solved solution on the original photo. 
 
