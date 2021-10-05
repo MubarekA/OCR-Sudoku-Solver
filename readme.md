@@ -25,6 +25,7 @@ Here's a how it was implemeted:
 <img src='8.png' title='Corner red indicator Picture' width="500" height="500" alt='reorder_points' />
 
 Full walkthrough:
+
 <img src='walkthrough.gif' title='Video Walkthrough' width="500" height="500" alt='Video Walkthrough' />
 
 ##  Notes
