@@ -8,7 +8,22 @@ OCR Sudoku Solver is a Python application that solves sudoku boards from photos.
 - [x] Overlays solved solution on the original photo. 
 
 ## Video Walkthrough 
-Here's a video walkthrough of how it was implemeted: 
+Here's a how it was implemeted:
+1. Apply Grey scale + Gaussian blur to the orginal image 
+<img src='2.png' title='Grey scale Picture' width='' alt='Walkthrough' />
+2. Get the borders/contours
+<img src='3.png' title='Contour Picture' width='' alt='Biggest contours' />
+3. Get corner points 
+<img src='4.png' title='Corner red indicator Picture' width='' alt='corner_points' />
+4. Prep image for splitting and detection
+<img src='5.png' title='Corner red indicator Picture' width='' alt='reorder_points' />
+5. Solve Sudoku + display numbers 
+<img src='6.png' title='Corner red indicator Picture' width='' alt='diplay_solution' />
+6. Adjust the solved board to fit original image 
+<img src='7.png' title='Corner red indicator Picture' width='' alt='adjust_displayed_solution' />
+7. Overlay solution on original image
+<img src='8.png' title='Corner red indicator Picture' width='' alt='reorder_points' />
+Full walkthrough:
 <img src='walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ##  Notes
