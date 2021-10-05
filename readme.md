@@ -10,21 +10,22 @@ OCR Sudoku Solver is a Python application that solves sudoku boards from photos.
 ## Video Walkthrough 
 Here's a how it was implemeted:
 1. Apply Grey scale + Gaussian blur to the orginal image 
-<img src='2.png' title='Grey scale Picture' width="200" height="200" alt='Walkthrough' />
+<img src='2.png' title='Grey scale Picture' width="500" height="500" alt='Walkthrough' />
 2. Get the borders/contours
-<img src='3.png' title='Contour Picture' width="200" height="200" alt='Biggest contours' />
+<img src='3.png' title='Contour Picture' width="500" height="500" alt='Biggest contours' />
 3. Get corner points 
-<img src='4.png' title='Corner red indicator Picture' width="200" height="200" alt='corner_points' />
+<img src='4.png' title='Corner red indicator Picture' width="500" height="500" alt='corner_points' />
 4. Prep image for splitting and detection
-<img src='5.png' title='Corner red indicator Picture' width="200" height="200" alt='reorder_points' />
+<img src='5.png' title='Corner red indicator Picture' width="500" height="500" alt='reorder_points' />
 5. Solve Sudoku + display numbers 
-<img src='6.png' title='Corner red indicator Picture' width="200" height="200" alt='diplay_solution' />
+<img src='6.png' title='Corner red indicator Picture' width="500" height="500" alt='diplay_solution' />
 6. Adjust the solved board to fit original image 
-<img src='7.png' title='Corner red indicator Picture' width="200" height="200" alt='adjust_displayed_solution' />
+<img src='7.png' title='Corner red indicator Picture' width="500" height="500" alt='adjust_displayed_solution' />
 7. Overlay solution on original image
-<img src='8.png' title='Corner red indicator Picture' width="200" height="200" alt='reorder_points' />
+<img src='8.png' title='Corner red indicator Picture' width="500" height="500" alt='reorder_points' />
+
 Full walkthrough:
-<img src='walkthrough.gif' title='Video Walkthrough' width="200" height="200" alt='Video Walkthrough' />
+<img src='walkthrough.gif' title='Video Walkthrough' width="500" height="500" alt='Video Walkthrough' />
 
 ##  Notes
 - To run this application, download all the files, make sure you have installed  Python3,numpy(1.20.2), OpenCV(4.5.1.48), Tensorflow(2.3.1), and Keras(2.3.1), and run Sudokuapp.py.
